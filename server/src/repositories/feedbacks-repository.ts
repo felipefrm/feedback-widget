@@ -1,5 +1,5 @@
 export interface FeedbackCreateData {
-  type: 'BUG' | 'IDEA' | 'OTHER';
+  type: string;
   comment: string;
   screenshot?: string;
 }
