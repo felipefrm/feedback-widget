@@ -18,7 +18,8 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-comoexecutar">Como executar</a>
+  <a href="#-to do">To Do</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como executar">Como executar</a>
 </p>
 
 <p align="center">
@@ -61,17 +62,25 @@ Você pode visualizar o layout do projeto através do seguinte [link](https://ww
 
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 
+## ✔️ To Do
+
+- [ ] Alterar entre tema light/dark
+- [ ] Em produção, usar algum serviço de e-mail
+- [ ] Melhorar corpo do e-mail
+- [ ] Criar dashboard de feedbacks para o administrador
+    - [ ] Autenticação (Firebase/Github OAuth)
+
 ## 🚀 Como executar
 
-- ### **Pré-requisitos**
+### Pré-requisitos
 
   - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
   - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
   - Por fim, para executar o app mobile é necessário ter o [Expo](expo.dev) instalado.
 
-### Há duas formar de executar a aplicação:
+### Há três formar de executar a aplicação:
 
-1. Executar a aplicação localmente: 
+### 1. Executar a aplicação localmente: 
 
 * Clone o projeto e acesse a pasta do mesmo.
 
@@ -105,9 +114,9 @@ $ npm run dev
 
 * O projeto estará disponível no seu browser pelo endereço http://localhost:3000.
 
-2. Executar a aplicação hospedada na Vercel, acessando o seguinte link: <a href="feedback-widget-rust.vercel.app">feedback-widget-rust.vercel.app</a>. 
+### 2. Executar a aplicação hospedada na Vercel, acessando o seguinte link: <a href="feedback-widget-rust.vercel.app">feedback-widget-rust.vercel.app</a>. 
 
-3. Executar a aplicação mobile:
+### 3. Executar a aplicação mobile:
 
 * Certifique-se de deixar o servidor rodando, de acordo com o passo a passo explicado no item 1.
 
